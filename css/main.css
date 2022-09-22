@@ -1,0 +1,139 @@
+@import "./reset.css";
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image {
+    height: 60px;
+    width: 60px;
+}
+.logo {
+    padding: 30px 30px 30px 150px;
+    
+}
+
+.header-nav {
+    background-color: rgb(6, 6, 88);
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+.nav-list {
+    display: flex;
+    column-gap: 70px;
+    font-size: medium;
+    list-style-type: none;
+    padding: 0 130px 50px 30px;
+    font-size: 20px;
+    text-transform:uppercase;
+    
+}
+.nav-link {
+color: aliceblue;
+padding: 1rem;
+}
+#index {
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color:rgb(6, 6, 88);
+}
+/*Header content*/
+.header-row {
+    display:flex;
+    justify-content:space-between;
+    column-gap: 30px;
+    height: 610px;
+}
+.header-img {
+    height: 600px;
+    width: 600px;
+    margin: 50px;
+    margin-right: 100px;
+}
+.header-content {
+    font-size: 70px;
+    padding: 50px;
+    margin: 50px 100px;
+}
+/* INFO PAGE */
+.services {
+padding: 120px;
+}
+
+.services-row {
+display: flex;
+column-gap: 280px;
+}
+
+.services-card {
+
+}
+
+.services-card-img{
+height: 200px;
+width: 250px;
+margin-bottom: 30px;
+}
+
+.services-card-title {
+ margin-bottom: 10px;
+ font-size: 25px;
+}
+.services-card p {
+    font-size: 18px;
+    line-height: 1.2;
+    max-width: 600px;
+}
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    width: 600px;
+    margin: 50px;
+    margin-left: 500px;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 2px solid grey;
+    padding: 30px;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 2px solid grey;
+    padding: 30px;
+ }
+.menu {
+    font-size: 25px;
+    margin-left: 100px;
+}
+/*contact page*/
+.contact-adress {
+    display: flex;
+}
+.contact-adress-img {
+    height: 500px;
+    width: 700px;
+    margin:30px 100px 70px 100px;
+}
+.contact-text {
+    font-size: 20px;
+    padding: 50px 0 0 100px;
+}
+.adress {
+    height: 500px;
+    width: 500px;
+    margin:30px 100px 70px 100px;
+}
+.the-end {
+    background-color: rgb(224, 236, 246);
+    height: 170px;
+    display: flex;
+    padding: 50px;
+    column-gap: 50px;
+}
+.ico img {
+    height: 50px;
+    width: 50px;
+}
+
